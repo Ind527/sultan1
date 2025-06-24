@@ -1,0 +1,132 @@
+<!-- START OF PROMPT UNTUK AI CODE GENERATOR -->
+
+<!-- Website Company Ekspor Global dengan 3000 Fitur -->
+<!-- Gaya marketplace seperti Amazon/Shopee, hanya untuk satu perusahaan -->
+<!-- Harus tampak modern, mewah, dan profesional kelas dunia -->
+
+<!-- GUNAKAN STACK: -->
+<!-- Frontend: Next.js (React) + Tailwind CSS (dengan font Poppins dan sans-serif) -->
+<!-- Backend API: Express.js (Node.js) -->
+<!-- Database: PostgreSQL -->
+<!-- Storage: Cloudinary atau Fly.io volume -->
+<!-- Docker Support: Harus siap deploy ke Fly.io -->
+
+<!-- Jangan tampilkan: -->
+<!-- Sertifikat (NIB, SIUP, dll) -->
+<!-- Kalimat "berpengalaman bertahun-tahun" -->
+<!-- Kalimat yang membuat perusahaan terlihat tidak profesional -->
+
+<!-- Website Font -->
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+</style>
+
+<!-- ✅ FITUR INTI (CONTOH DARI 3000): -->
+<!-- Gunakan struktur dan sistem untuk fitur di bawah ini dan perluas menjadi 3000 fitur -->
+
+<!-- Core Product Catalog & Detail -->
+- Homepage modern dengan hero, CTA, dan brand
+- Grid katalog produk ekspor (maks 50 produk: pisang, kelapa, rempah, daun pisang, sayur, dll)
+- Halaman detail produk lengkap (foto HD, volume, berat, deskripsi, spesifikasi, brix, kategori, harga by request)
+- Tombol Request Quote (mengarah ke form atau WhatsApp)
+- Grid produk mirip di halaman detail
+
+<!-- Admin Panel & CRUD -->
+- Login admin (JWT, hashed password)
+- CRUD Produk: Tambah, Edit, Hapus produk
+- Upload max 5 gambar per produk (via Cloudinary)
+- Edit status produk: Aktif / Tidak Aktif
+- Validasi semua field admin
+- Dashboard: jumlah produk, quote masuk, status akun
+
+<!-- Form dan Komunikasi -->
+- Form Request Quote (email + database)
+- WhatsApp Chat Button floating
+- Integrasi email otomatis ke admin dan customer
+- PDF generator untuk form quote
+
+<!-- Tampilan & UX -->
+- Logo besar menggantung di luar navbar
+- Font utama: Poppins dan sans-serif
+- Responsif semua ukuran layar
+- Tema terang/gelap
+- Sidebar kategori collapsible
+- Navigasi super cepat (Next.js routing)
+- Loading skeleton di semua konten
+- Carousel produk unggulan
+- Fitur pencarian real-time (auto-suggest)
+- Animasi scroll halus di semua halaman
+- Hover animation pada tombol, kartu produk, ikon
+- Entrance animation untuk elemen di homepage menggunakan framer-motion atau Tailwind animate
+- Transisi lembut antar halaman
+- Animasi notifikasi quote masuk
+
+<!-- SEO & Analytics -->
+- Sitemap.xml otomatis
+- Robots.txt
+- Meta tag OG otomatis
+- Google Analytics
+- Schema JSON-LD product
+- Heatmap pengunjung
+
+<!-- Multi-language & Globalization -->
+- Bahasa: Inggris, Indonesia, Vietnam, Arab
+- Form dan layout adaptif multi-locale
+- Quote dinamis berdasarkan negara
+
+<!-- Export & Integrasi Data -->
+- Export quote ke CSV
+- Import produk via Excel
+- Export katalog PDF
+- Export laporan penjualan mingguan
+
+<!-- Security & Deployment -->
+- Role multi-admin (admin/editor/viewer)
+- Whitelist IP login admin
+- HTTPS via Fly.io
+- CDN (Cloudflare)
+- Rate limiting API (anti-spam)
+- Auto logout after timeout
+- Dockerfile + docker-compose.yml
+- fly.toml siap deploy
+
+<!-- BONUS FITUR LANJUTAN (SKETSA): -->
+- Wishlist
+- Produk favorit
+- Produk terakhir dilihat
+- Integrasi AI chatbot tanya-jawab
+- Voice search untuk produk
+- QR generator untuk tiap produk
+- PWA-ready (bisa dibuka seperti app)
+- Mode booth (presentasi offline)
+- Dashboard statistik interaktif
+- Integrasi ERP / Stock
+- AI rekomendasi produk
+- Chat support langsung
+- Review internal (hanya admin lihat)
+- CMS blog ekspor
+- Admin cetak katalog PDF
+- Auto translate konten
+- Video player produk
+- Download brosur produk
+- 2FA login admin
+- Multi-theme
+- Live stats pengunjung
+- Kalkulasi shipping (opsional)
+- Promo produk unggulan
+- Penjadwalan publikasi produk
+- Notifikasi Firebase
+- Dukungan multi-wilayah Fly.io
+
+<!-- Total 3000 fitur → kembangkan semua di atas (tiap area diperluas menjadi ratusan fungsi: produk, admin, user, sistem, integrasi, UI/UX, AI, laporan, keamanan, ekspor/impor data, dan lainnya) -->
+
+<!-- OUTPUT YANG DIHARAPKAN: -->
+- Folder: frontend/, backend/, docker/, docs/
+- Dockerfile & docker-compose.yml siap deploy
+- fly.toml siap
+- Semua sistem 100% bebas error dan bug
+
+<!-- END PROMPT -->
