@@ -1,39 +1,6 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "src/index.ts",
-      "use": "@vercel/node",
-      "config": {
-        "includeFiles": [
-          "server/**",
-          "shared/**",
-          "package.json",
-          "tsconfig.json"
-        ]
-      }
-    },
-    {
-      "src": "dist/public/**",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "src/index.ts"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/dist/public/$1"
-    }
-  ],
-  "env": {
-    "NODE_ENV": "production"
-  },
-  "functions": {
-    "src/index.ts": {
-      "maxDuration": 30
-    }
-  }
+  "public": true,
+  "buildCommand": "vite build",
+  "outputDirectory": "dist"
 }
